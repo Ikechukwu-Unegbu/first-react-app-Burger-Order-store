@@ -2,6 +2,7 @@
   position:fixed;
   width: 280px;
   max-width: 70%;
+  height: 100vh;
   left: 0;
   top: 0;
   z-index: 200;
@@ -27,6 +28,4 @@
 
 .Logo{
   height: 11%;
-  margin-bottom: 1rem;
 }
-
