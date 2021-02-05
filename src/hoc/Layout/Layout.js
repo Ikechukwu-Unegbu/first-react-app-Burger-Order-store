@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
-import Auxi from '../../hoc/Auxi';
+import Auxi from '../Auxi/Auxi';
 import classes from './Layout.css';
-import Toolbar from '../Navigation/Toolbar/Toolbar';
-import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
+import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component{
 
@@ -19,7 +19,7 @@ class Layout extends Component{
     this.setState( (prevState) => {
       return {showSideDrawer: !prevState.showSideDrawer};
     });
-  }
+  }  
 
   render(){
     return (
